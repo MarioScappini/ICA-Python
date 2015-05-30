@@ -1,0 +1,15 @@
+Bienvenidos al repositorio del ICA-Python.
+
+Todas las clases que dimos y del siguiente jueves (para poder adelantar algo) van a estar aqui como referecia junto con algunos ejercicios para poder practicar
+
+Lo que se necesita para poder empezar a programar en python es:
+
+-Python version 3.4.3
+(https://www.python.org/downloads/)link de descarga
+
+-Pycharm Comunity edition (https://www.jetbrains.com/pycharm/download/)link de descarga
+
+
+SI quieren practicar en internet aqui les dejo un link en donde pueden practicar:  
+ 
+http://www.codecademy.com/en/tracks/python
