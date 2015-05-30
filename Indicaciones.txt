@@ -9,6 +9,7 @@ Lo que se necesita para poder empezar a programar en python es:
 
 -Pycharm Comunity edition (https://www.jetbrains.com/pycharm/download/)link de descarga
 
+Para empezar a programar en pycharm entrar en file/new proyect crear un proyecto y luego hacer click derecho en el proyecto creado y click en "NEW PYTHON FILE"
 
 SI quieren practicar en internet aqui les dejo un link en donde pueden practicar:  
  
