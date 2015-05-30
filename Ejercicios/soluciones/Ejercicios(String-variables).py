@@ -18,3 +18,6 @@ print(despedida);
 despedida1 = "chau";
 saludo="hola";
 print("hola"+" "+ saludo + despedida1)
+
+#6
+despe1 = "Nos vemos";
