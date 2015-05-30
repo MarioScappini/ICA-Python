@@ -20,7 +20,7 @@ print("Hola Mundo");
 
 
 saludo="Hola!";
-#Aqui se muestra como se hace una variable que se llama saludo y su valor es Hola!
+#Aqui se muestra como se hace una variable que se llama saludo y su valor es Hola! el nombre de una variable no puede empezar con un numero
 #Recordar que la variable saludo es de tipo string(texto) y para esto al declararse tiene que estar entre comillas " "
 #Las variables pueden cambiar de valor(Ver mas en la seccion de re-declaracion de variables)
 
