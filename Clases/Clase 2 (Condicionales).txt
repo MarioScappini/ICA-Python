@@ -1,0 +1,82 @@
+			Condicionales if y else 1
+----------------------------------------------------------------
+
+Algunas veces en nuestros programas es necesario que tomemos algunas “decisiones”, esto en el sentido de que necesitamos decidir si ejecutar una pieza en especial de codigo o no, o tal vez dadas ciertas condiciones tendríamos varias alternativas de código que ejecutar.
+
+Para esto tenemos una sentencia llamada if y otra llamada else.
+
+------------------------
+Sentencia if en python
+-------------------------
+La sentencia If evalua basicamente una operación logica, es decir una expresión que de como resultado verdadero o false (true o false), y ejecuta la pieza de codigo siguiente siempre y cuando el resultado sea verdadero.
+
+Sintaxis:
+
+La sintaxis va de la siguiente manera:
+
+if expresion: #donde la expresion es verdadera
+#dejar una indentacion
+     codigo_a_ejecutar
+fin
+
+#alternativa
+if expresion: codigo a ejecutar
+#sin indentacion no se evalua el if
+fin 
+
+Ejemplo basico .
+
+#!/usr/bin/python
+
+a = 7
+
+if ( a  > 5) : print "La variable es mayor a 5!"
+
+print "fin"
+
+Lo que haz visto en este ejemplo es una evaluación de (a > 5) dado que “a” tiene un valor a 7, y 7 es mayor a 5, el resultado de la operación logica es verdadero, por lo tanto si ejecutas este programa tu resultado sera:
+
+La variable es mayor a 5!
+fin
+
+Si por otro lado cambiaramos el programa y dijeramos que “a” es igual a 3. El resultado seria unicamente:
+
+fin
+
+Pues la condición habrá dejado de ser verdadera.
+
+Ejemplo con sintaxis alternativa:
+
+
+
+a = 10
+
+if ( a  ==  10) :
+       print "La variable es igual a 10!"
+
+print "fin"
+
+
+------------------
+Usando if y else
+------------------
+
+El utilizar else lo que hace es que podemos tener la capacidad de ejecutar un codigo alternativo en caso de que el resultado logico de la expresion evaluada sea falso. Esta es una forma de tener varias alternativas de codigo a ejecutar.El uso con un ejemplo seria el siguiente.
+
+#!/usr/bin/python
+
+a = 10
+
+if ( a  !=  10) :
+       print "La variable es diferente de 10!"
+else:
+      print "La variable es igual a 10!"
+
+print "fin"
+
+En este ejemplo se puede ver que la expresion solo sera verdadera si la variable es diferente de 10, dado que esto no es cierto, ejecutaremos la alternativa con “else”, el resultado de este programa sera el siguiente.
+
+
+La variable es igual a 10!
+fin
+
