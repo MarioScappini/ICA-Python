@@ -1,0 +1,117 @@
+Problemas
+Introducción de datos
+	Calcular el área de un cuadrado cuya medida de lado es introducida por el usuario.
+	Calcular el área de un círculo cuya medida de radio es introducida por el usuario. Considere pi = 3.14.
+	
+Estructuras Secuenciales
+	Calcular el monto del IVA de un producto vendido, donde IVA = 10%. Los datos leídos serán la cantidad de productos vendidos y el precio al cual todos se han vendido.
+	Calcular el sueldo neto de un empleado, teniendo en cuenta los descuentos IPS (9% del sueldo bruto), siendo el sueldo bruto un dato introducido por el usuario.
+	Calcular el perímetro y el área de un rectángulo, cuya medida para el largo y ancho son introducidas por el usuario.
+	Determinar el monto de descuento de un producto en oferta. Los datos leídos serán el precio original del producto y el porcentaje de descuento.
+
+Estructuras Condicionals (if/else)
+Ej: Imprimir un mensaje en pantalla determinando si una persona cuya edad es introducida por el usuario es mayor de edad o no, siendo la mayoría de edad alcanzada a los 18 años.
+	Calcular las raíces de una ecuación cuadrática, introduciendo el usuario los coeficientes de ella y…
+	Suponiendo que el discriminante sea no negativo. 
+	Suponiendo que el discriminante sea no negativo, y mostrando un mensaje en pantalla si así no fuera.
+	Suponiendo que el discriminante sea no negativo o negativo.
+	Determinar el mayor de dos números A y B introducidos por el usuario.
+	
+Estructuras Anidadas (else if)
+	Determinar el mayor de tres números A, B, y C introducidos por el usuario.
+	Determinar el menor de tres números A, B, y C introducidos por el usuario.
+	Determinar el número medio de tres números A, B, y C introducidos por el usuario.
+	Imprimir en orden ascendente tres números A, B, y C introducidos por el usuario.
+	
+Estructuras Múltiples (elif)
+	Determinar la nota de un alumno a partir de un puntaje que varía de 1 a 100 introducido por el usuario, sabiendo que 0 a 59 es nota 1, 60 a 69 es nota 2, 70 a 79 es nota 3, 80 a 89 es nota 4, 90 a 100 es nota 5.
+
+Estructuras Cíclicas 
+Bucle: for
+	Determinar la suma de 10 números leídos.
+	Determinar la cantidad de números positivos, negativos y nulos hay en 10 números leídos.
+	Determinar el promedio de 10 números leídos.
+	Determinar el promedio de los números pares e impares de los números leídos.
+	Imprimir los números divisibles por 3, 5 y/o 7 de 14 números leídos, y determinar el promedio de los números divisibles por 3, 5 y/o 7 (por separado).
+	Determinar la suma de los N primeros enteros positivos, donde N es un entero positivo introducido por el usuario.
+	Determinar el mayor número de N números leídos, donde N es un entero positivo introducido por el usuario.
+	Determinar el menor número de N números leídos, donde N es un entero positivo introducido por el usuario.
+	
+Bucle: while
+	Hallar el rango de N números leídos, donde N es un entero positivo introducido por el usuario.
+	Imprimir la tabla de multiplicar de un entero positivo N introducido por el usuario del 1 al 10.
+	Hallar el cociente y resto de una división entera por restas sucesivas, donde el dividendo y el divisor son enteros positivos introducidos por el usuario.
+	Hallar la suma de los números primos del 1 hasta N, donde N es un entero positivo mayor o igual a 2 introducido por el usuario.
+	Hallar el factorial de un entero no negativo N introducido por el usuario, sabiendo que 0! = 1 y N! = 1 x 2 x …. X N si N es mayor a 0.
+	Imprimir la secuencia de Fibonacci hasta el elemento N, donde N es un entero no negativo introducido por el usuario, sabiendo que sus dos primeros términos son iguales a 0 y 1 respectivamente, y cada término siguiente resulta de la suma de los dos anteriores. Ej:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, …
+
+
+Arrays
+Introducción
+Ej: Asignar a un vector denominado Día_Semana de 7 elementos con los nombres correspondientes.
+	Hallar la suma de los elementos de un vector de 10 elementos enteros positivos introducidos por el usuario.
+	Hallar el promedio de los números pares e impares por separado, y la cantidad de ceros encontrados de un vector V de N elementos enteros introducidos por el usuario, donde N es un entero positivo introducido por el usuario.
+	Determinar el mayor elemento leído de un vector V de N elementos enteros introducidos por el usuario, donde N es un entero positivo introducido por el usuario.
+	Determinar el vector suma de los vectores A y B de N elementos enteros introducidos por el usuario, sabiendo que el usuario ingresa un entero positivo N y que 
+Suma(i) = A(i) + B(i) 
+	Leer un vector de N elementos enteros positivos, y hallar la suma y el promedio de los componentes que están en los lugares pares e impares por separado, imprimiendo lo hallado.
+	Almacenar en un vector de N elementos lo siguiente: el primer elemento 1, el segundo elemento 2, hasta guardar en el N-ésimo elemento N, donde N es un entero positivo introducido por el usuario. Imprimir el vector creado.
+	Determinar si dos vectores leídos A y B de dimensiones M y N respectivamente son iguales (es decir, igual cantidad de componentes y valores iguales en posiciones iguales), donde M y N son enteros positivos introducidos por el usuario. Emitir mensaje.
+
+Intermedio 
+(Considerar M y N como enteros positivos introducidos por el usuario, y los vectores indicados aceptando solamente valores numéricos)
+
+	Invertir un vector leído A de dimensión N e imprimir en pantalla el vector original y el invertido, teniendo en cuenta las siguientes restricciones:
+	El vector invertido se almacena en otro vector.
+	El vector invertido se almacena en el mismo vector A.
+	Hallar el producto escalar de dos vectores leídos A y B de dimensiones M y N siendo el producto escalar igual A(0)*B(0) + A(1)*B(1) + … + A(M-1)*B(N-1). Obs: validar M = N antes de ejecutar la suma.
+	Leer un vector de K componentes. Determinar y hallar el mayor y menor elemento del vector y los lugares que ocupan. Obs: si hay varios mayores o menores, indicar el lugar de alguno de ellos.
+	Leer un vector de N componentes  y desplazarlo cíclicamente a la derecha en una unidad:
+6	3	2	4	5
+5	6	3	2	4
+	En otro vector.
+	En el mismo vector.
+	Leer un vector A de N componentes, y crear variables R, S y T tales que:
+R: cuántas componentes son menores o iguales a 5.
+S: cuántos componentes son mayores que 5 pero menores de 12.
+T: cuántos componentes son mayores que 12.
+	Leer dos vectores X e Y de N componentes cada uno. Calcular e imprimir lo siguiente
+
+Px=  (X[0]+X[1]+⋯X[N-1])/N
+Py=  (Y[0]+Y[1]+⋯Y[N-1])/N
+S1=  ((X[0]-Px)+(X[1]-Px)+⋯(X[N-1]-Px))/(N-1)
+S2=  ((Y[0]-Py)+(Y[1]-Py)+⋯(Y[N-1]-Py))/(N-1)
+
+SF=  ((X[0]-Px)*(Y[0]-Py)+(X[1]-Px)*(Y[1]-Py)+⋯(X[N-1]-Px)*(Y[N-1]-Py))/(N-1)
+
+	Leer un vector X de N componentes y un número A. Determinar si A es igual a algún elemento de X. Si existen igualdades, imprimir todas las posiciones en las que se halle. Si no, emitir un mensaje que lo diga.
+	Leer un vector de N componentes y desplazarlo cíclicamente a la izquierda dos unidades:
+	En otro vector.
+	En el mismo vector.
+	Leer un vector A de N componentes y ordenarlo en forma creciente:
+	En otro vector.
+	En el mismo vector.
+
+Avanzado
+	Calcular e imprimir la mediana entre los elementos de un vector A de N componentes, sabiendo que esta se obtiene primeramente ordenando el vector, tomando el elemento del medio si N es impar, y el promedio de los dos elementos del medio si N es par.
+	Leer un vector de N componentes, cada uno de ellos siendo un dígito del 0 al 9. Hallar la frecuencia con la que aparece cada valor; el/los número/s con la mayor frecuencia (moda) y la mayor frecuencia hallada.
+	Leer un vector de 140 componentes y calcular el promedio de dos valores consecutivos, luego el de los tres siguientes, luego el de los cuatro siguientes, y luego el de los cinco siguientes, repitiendo todo este proceso hasta haber abarcado todos los valores. Imprimir cada vez el promedio y la cantidad de componentes considerados.
+	Leer dos vectores ordenados A y B de M y N componentes respectivamente. Crear un vector donde se inserten los elementos de A y luego los de B, y luego mostrarlo en pantalla.
+	Leer un vector de N componentes y un entero positivo X. Encontrar el menor elemento del vector que sea mayor que el número X, y emitir un mensaje en caso que no se encuentre tal elemento.
+	Leer un vector de N componentes y un entero positivo X. Encontrar el mayor elemento del vector que sea menor que el número X, y emitir un mensaje en caso que no se encuentre tal elemento.
+	Leer un vector A de dimensión M, y crear un vector B cuyos componentes sean los componentes del vector A que no se repitan en él.
+
+Matrices
+	Leer una matriz A de orden M x N, y calcular la suma de todos sus componentes.
+	Leer una matriz cuadrada de orden N. Hallar e imprimir:
+	La suma de los elementos que están en la diagonal principal.
+	La suma de los elementos que están por encima de la diagonal principal.
+	La suma de los elementos que están por debajo de la diagonal principal.
+	Volcar una matriz MAT de dimensión M x N a un vector V
+	Por filas
+	Por columnas
+	Leer una matriz A de orden MxN. Hallar e imprimir el mayor componente de la matriz y la posición que ocupa en ella. Si hay varios iguales al mayor, solo mostrar la posición de uno de ellos.
+	Leer una matriz de orden 10x10. Sumar cada columna impar con la par siguiente, y guardar el valor en la columna impar, llenando de ceros la columna par. Imprimir la matriz antes y después del cambio.
+	Leer una matriz A de orden MxN y luego hallar la suma de cada fila y el total de estas sumas.
+	Volcar un vector de MxN componentes a una matriz de dimensión MxN.
