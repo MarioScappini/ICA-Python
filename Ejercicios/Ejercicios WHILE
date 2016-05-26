@@ -1,0 +1,19 @@
+Problemas Básicos
+1.	Imprimir todos los números pares de 1 a 1000.
+2.	Solicitar que el usuario ingrese dos números a y b. El programa debe imprimir tanto el cociente como el resto de la división entre a y b utilizando el método de las restas sucesivas. Ej: 7 y 2
+7-2 = 5 (primera resta)
+5-2 = 3 (segunda resta)
+3-2 = 1 (tercera resta)
+Cociente: 3; Resto: 1
+3.	Solicitar al usuario que ingrese un número entero positivo n. El programa debe imprimir el resultado de la siguiente operación: 1-2+3-4+… ; donde la operación tiene n números.
+Problemas Intermedios
+4.	La secuencia de Fibonacci empieza con los números 0 y 1. Los siguientes términos se calculan sumando los dos anteriores. Por ejemplo, el siguiente término es 1 (0+1); el siguiente es 2 (1+1); el siguiente es 3 (1+2); el siguiente es 5 (2+3); y así sucesivamente. Solicitar al usuario que ingrese un número entero positivo n, y que imprima en pantalla los n primeros términos de la secuencia de Fibonacci
+5.	Solicitar al usuario que ingrese un número entero positivo n. Repetir la solicitud si es que el usuario no ingresó un número entero positivo (ej: 1,23; -1; ab31, etc.). Finalmente, imprimir en pantalla el resultado de multiplicar ese número por dos.
+6.	Solicitar al usuario que ingrese un número entero positivo mayor a 1 (repetir la solicitud si es que no se cumplió este requisito). El programa debe imprimir si el número ingresado es primo o no. (Un número primo es aquel que tiene solo dos números divisibles por él: 1 y él mismo, por ejemplo 5)
+Problemas Avanzados
+7.	Solicitar al usuario que ingrese un número entero positivo n y validarlo. Sin utilizar funciones, imprimir el resultado de 1 + 1/1! + 1/2! + 1/3! + ... + 1/n! donde m! = 1 x 2 x 3 x … x m
+8.	Solicitar al usuario que ingrese una cantidad de dinero en guaraníes (validar que sea entero positivo). Utilizando los billetes y monedas en circulación en Paraguay (1 a 100.000 Gs), imprimir el menor número de billetes que un cajero automático debe dispensar para alcanzar el monto deseado y qué denominación deben tener.
+9.	Utilizando el algoritmo de Euclides, determine el máximo común divisor de dos números enteros a y b introducidos por el usuario (validando que sean enteros), sabiendo lo siguiente: 
+
+1.mcd(a,a)=a para cualquier número entero a.
+2. Si a > b, entonces mcd(a,b) = mcd(a‐b,b) para cualquier par de número enteros a y b.
