@@ -1,0 +1,25 @@
+EJERCICIOS BÁSICOS
+1.	El usuario debe introducir un número n. El programa debe retornar el área del cuadrado de lado n, y del lado del cubo de volumen n. Realizar las dos variantes
+a.	Imprimir los resultados en dos líneas separadas
+b.	Imprimir los resultados en una línea única
+2.	El usuario debe introducir dos números. El programa debe retornar si el primer número es mayor, menor o igual al segundo número.
+3.	El usuario debe introducir un carácter. El programa debe retornar si el carácter introducido es una vocal o una consonante.
+EJERCICIOS INTERMEDIOS
+4.	El usuario debe introducir dos números y cualquiera de las cuatro operaciones aritméticas permitidas. El programa debe retornar el resultado de aplicar la operación aritmética a esos dos números. Avisar si es que se quiere realizar una división entre cero.
+5.	El usuario debe introducir un número entre el 1 al 100. El programa debe imprimir una calificación del 1 al 5 siguiendo las indicaciones a continuación:
+•	0 a 59: 1
+•	60 a 69: 2
+•	70 a 79: 3
+•	80 a 89: 4
+•	90 a 100: 5
+6.	El usuario debe introducir tres números a, b, c. El programa debe retornar las raíces del polinomio cuadrático ax^2 + bx + c = 0. Realizar las dos variantes:
+a.	Imprimir en un mensaje las raíces reales (si es que tiene) y en otro las raíces imaginarias (si es que tiene)
+b.	Imprimir en otro mensaje la cantidad de raíces reales e imaginarias
+EJERCICIOS AVANZADOS (puede utilizar conocimientos más avanzados, pero no es lo más importante)
+7.	El usuario debe introducir cuatro números a, b, c, d. El programa debe determinar si es que las rectas determinadas por las ecuaciones ax+b y cx+d son solapadas, se cortan en un punto o si no se cortan. Además, si es que se cortan en un solo punto, determinar si son perpendiculares o no.
+8.	En un juego de adivinar un número, una persona piensa un número en el rango 1 a 2n donde n es un entero positivo. La otra persona debe adivinar el número utilizando hasta n preguntas que se responden con sí o no. Diseñar un programa que permita adivinar el número pensado por el usuario, suponiendo que:
+c.	n es 4
+d.	n es un número introducido por el usuario
+9.	En el juego de NIM, dos jugadores se intercambian turnos sacando una cantidad entre 1 a 4 de piedras de un montón de piedras inicial. El ganador es el que saque la última piedra. En este ejercicio, debes hacer que el usuario juegue NIM contra la computadora. Hacer que el usuario introduzca la cantidad de piedras en el montón inicial, que la computadora decida si juega primero o segundo y que, respetando todas las reglas del juego, la computadora gane siempre, sin importar cómo juegue el usuario (hallar una estrategia ganadora y codificarla). Realizar las dos variantes:
+e.	La condición de victoria es retirar la última piedra.
+f.	La condición de victoria es no ser el que retira la última piedra.
